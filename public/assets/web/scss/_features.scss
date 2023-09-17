@@ -1,0 +1,9 @@
+// 
+// features.scss
+// 
+
+.features-img{
+    img{
+        transform: perspective(550px) rotateX(2deg) rotateY(10deg);
+    }
+}

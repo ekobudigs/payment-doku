@@ -1,0 +1,34 @@
+# Project Todos
+- [x] Adjust administrator datatable 
+- [x] Make customer CRUD function
+- [x] Test customer authentication
+    - [x] Forgot Password
+    - [x] Status checker
+    - [x] Adjust all wording (web auth)
+- [x] Implement queue on mail
+- [x] Use Intervention Image library
+- [x] Use service class - OAuthController
+- [x] Cross-check CMS views
+- [x] Cross-check WEB views
+- [x] MDI -> FontAwesome
+- [x] Implement Animate on Scroll library
+- [x] Check jquery validator messages
+- [x] Adjust active-sidebar style
+- [ ] Database migration
+- [ ] Create CMS Modules:
+    - [x] Pricing
+        - [x] Mekanisme form discount, enable discount type and amount if discount status == true.
+        - [x] Mekanisme form galleries
+        - [x] Mekanisme form videos
+        - [x] Update
+        - [x] Toggle
+        - [x] Delete
+        - [x] Detail
+    - [x] FAQ
+    - [x] Audio
+        - [x] Create
+        - [x] Update
+        - [x] Toggle
+        - [x] Delete
+        - [x] Detail
+    

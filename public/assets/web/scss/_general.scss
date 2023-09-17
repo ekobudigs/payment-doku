@@ -1,0 +1,48 @@
+// 
+// general.scss
+// 
+body {
+    font-size: $font-size-base;
+    color: $body-color;
+    font-family: $font-family-primary;
+}
+
+html {
+    scroll-padding-top: 58px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $dark;
+    font-family: $font-family-secondary;
+    font-weight: $font-weight-semibold;
+}
+
+a {
+    text-decoration: none !important;
+    outline: none;
+    color: $primary;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+hr {
+    opacity: 0.1 !important;
+    }
+    
+.row > * {
+    position: relative;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}

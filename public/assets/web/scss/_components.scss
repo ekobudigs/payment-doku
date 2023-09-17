@@ -1,0 +1,54 @@
+// 
+// components.scss
+// 
+.btn {
+    font-size: .9rem;
+    padding: 10px 16px;
+    font-weight: $font-weight-medium;
+    transition: all 0.4s;
+    border-radius: 7px;
+    &:hover,
+    &:focus {
+        outline: none !important;
+        box-shadow: none !important;
+        text-decoration: none;
+    }
+}
+
+.btn-sm {
+    padding: .4rem .8rem;
+    font-size: 13px;
+}
+
+.btn-light {
+    color: $dark !important;
+}
+
+@each $name,
+$value in $colors {
+    .btn-#{$name} {
+        color: $white;
+        background: #{$value};
+        border-color: #{$value};
+        &:hover,
+        &:focus,
+        &:active,
+        &.active {
+            background: darken($value, 4%);
+            border-color: darken($value, 4%);
+            color: $white;
+        }
+    }
+    .btn-outline-#{$name} {
+        color: #{$value};
+        border-color: #{$value};
+        &:hover,
+        &:focus,
+        &:active,
+        &.active {
+            background: darken($value, 4%) !important;
+            border-color: darken($value, 4%) !important;
+            color: $white;
+        }
+    }
+}

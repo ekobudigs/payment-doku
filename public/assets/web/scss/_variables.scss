@@ -1,0 +1,60 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap');
+
+// stylelint-disable
+$gray-100: #edf2fb;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #cbcbd5;
+$gray-500: #a0a9b1;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #02000c;
+
+
+$primary:   #8338EC;
+$success:   #09BC8A;
+$info:      #00B4D8;
+$warning:   #ffd455;
+$danger:    #D1495B;
+$white:     #ffffff;
+$dark:      #343a40;
+$light:     #f6faff;
+$muted:     #a7a9c0;
+$black:     #000000;
+
+
+
+$colors: (
+    "primary": $primary,
+    "success": $success,
+    "info": $info,
+    "warning": $warning,
+    "danger": $danger,
+    "dark": $dark,
+    "muted": $muted,
+    "white": $white,
+    "light": $light,
+    "black": $black,
+);
+
+$body-color:  #343a40;
+
+$footer-bg:   #343a40;
+
+$font-size-base : .9rem;
+
+$box-shadow:   0px 8px 35px 0px rgba(69, 61, 80, 0.05);
+
+
+$font-family-primary: 'Nunito Sans', sans-serif;
+
+// Secondary font
+$font-family-secondary: 'Nunito Sans', sans-serif;
+
+// font weight
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;

@@ -1,0 +1,67 @@
+// 
+// testimonial.scss
+// 
+.tns-outer {
+    position: relative;
+    .tns-controls {
+        position: absolute;
+        top: -50px;
+        right: 0;
+        button {
+            margin: 0 0 0px 5px;
+            border-radius: 50%;
+            border: none;
+            background-color: rgba($primary, 0.2) !important;
+            color: $primary;
+            transition: all 0.3s;            
+            font-size: 18px;
+            &:focus, &:hover, &:active {
+                outline: none;
+                background-color: $primary !important;
+                color: $white;
+            }
+            &.active {
+                button {
+                    background-color: darken($primary, 2%) !important;
+                }
+            }
+        }
+        &:focus {
+            outline: none !important;
+        }
+    }
+    .tns-nav {
+        text-align: center;
+        margin-top: 16px;
+        button {
+            width: 10px !important;
+            height: 10px !important;
+            border: none;
+            background-color: rgba($primary, 0.2) !important;
+            padding: 0px;
+            margin: 0px 6px ;
+            border-radius: 50%;
+            &:focus, &:hover, &:active, &.active {
+                outline: none;
+                background-color: $primary !important;
+            }
+            &.tns-nav-active {
+                background-color: $primary !important;
+            }
+        } 
+    }    
+}
+
+
+.client-images {
+    img {
+        max-height: 94px;
+        width: auto !important;
+        margin: 10px auto;
+        opacity: 0.7;
+        transition: all 0.5s;
+        &:hover {
+            opacity: 1;
+        }
+    }
+}

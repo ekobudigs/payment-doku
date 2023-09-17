@@ -1,0 +1,39 @@
+
+/*
+Template Name: Peyso - Bootstrap 5 Landing Page Tamplate
+Author: Themesdesign
+File: Main scss file
+*/
+
+/*******************************
+1.General
+2.Helper
+3.Navbar
+4.Hero section
+5.About
+6.Features
+7.Testimonial
+8.Pricing
+9.Contact
+10.Footer
+11.Responsive
+12.Authentication
+********************************/
+
+
+@import "variables";
+@import "general";
+@import "helper";
+@import "components";
+@import "menu";
+@import "hero";
+@import "about";
+@import "features";
+@import "testimonial";
+@import "pricing";
+@import "contact";
+@import "footer";
+@import "authentication"
+
+
+

@@ -1,0 +1,203 @@
+// 
+// helper.scss
+// 
+@each $name,
+$value in $colors {
+    .bg-#{$name} {
+        background-color: #{$value} !important;
+    }
+    .bg-soft-#{$name} {
+        background-color: rgba(($value), 0.1) !important;
+    }
+    .text-#{$name} {
+        color: #{$value} !important;
+    } // Icons
+    .uim-icon-#{$name} {
+        .uim-svg {
+            fill: $value !important;
+        }
+    }
+}
+
+// form
+.form-check {
+    &:focus {
+        outline: none;
+    }
+    .form-check-input {
+        box-shadow:none ;
+    }
+    .form-check-input:checked {
+        background-color: $primary;
+        border-color: $primary  ;
+        &:focus {
+            box-shadow: none !important;
+        }
+    }
+}
+
+
+
+.card {
+    border: none;
+    box-shadow: $box-shadow;
+    border-radius: 7px;
+    margin-bottom: 30px;
+}
+
+.section {
+    position: relative;
+    padding: 100px 0px 100px;
+    
+}
+
+.title {
+    p {
+        letter-spacing: 2px;
+    }
+    .title-icon {
+        position: relative;
+        &::before {
+            content: "";
+            position: absolute;
+            width: 150px;
+            height: 3px;
+            background: $gray-200;
+            left: 0;
+            right: 0;
+            margin: 0px auto;
+            top: 12px;
+        }
+    }
+}
+
+.text-body {
+    color: $body-color !important;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+.font-22 {
+    font-size: 22px;
+}
+
+.font-24 {
+    font-size: 24px;
+}
+
+// font-weight
+.fw-semibold {
+    font-weight: $font-weight-semibold !important;
+}
+
+.avatar-sm {
+    height: 16px;
+    width: 16px;
+}
+
+.avatar-md {
+    height: 32px;
+    width: 32px;
+}
+
+.avatar-lg {
+    height: 40px;
+    width: 40px;
+}
+
+.uim-svg {
+    fill: $primary !important;
+    svg {
+        width: 24px;
+        height: 24px;
+        vertical-align: inherit;
+    }
+}
+
+.icons-sm {
+    svg {
+        height: 18px;
+        width: 18px;
+    }
+}
+
+.icons-md {
+    svg {
+        height: 32px;
+        width: 32px;
+    }
+}
+
+.icons-lg {
+    svg {
+        height: 40px;
+        width: 40px;
+    }
+}
+
+.icons-xl {
+    svg {
+        height: 48px;
+        width: 48px;
+    }
+}
+
+.box-shadow {
+    box-shadow: $box-shadow;
+}
+
+.avatar-title {
+    align-items: center;
+    background-color: $primary;
+    color: $white;
+    display: flex;
+    font-weight: $font-weight-medium;
+    justify-content: center;
+}
+
+.bg-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    opacity: 0.7;
+    background-color: $dark;
+}
+
+.form-control {
+    &::placeholder {
+        color: $gray-400;
+    }
+}
+
+label {
+    color: $dark;
+    font-weight: $font-weight-semibold;
+}
+
+@media (max-width:768px) {
+    .section {
+        padding: 80px 0px;
+    }
+}

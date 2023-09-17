@@ -1,0 +1,13 @@
+// 
+// authentication.scss
+// 
+.authentication-page {
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    @media (max-width: 575.98px) {
+        height: auto;
+    }
+}
